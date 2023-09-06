@@ -27,6 +27,7 @@ int (*p)[3];
 ip = a;
 p = a;
 
+printf("Hello\n");
 printf("ip= %u *ip =%u\n", ip, *ip);
 
 printf("p=%u    *p=%u    **p=%u\n" , p, *p, **p);	
